@@ -20,11 +20,9 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-4 lg:gap-8">
-
-
-
-
-
+            <Link href="/" className="nav-link group">
+              <span className="group-hover:translate-y-[-2px] inline-block transition-transform duration-300">Home</span>
+            </Link>
             <Link href="/cars" className="nav-link group">
               <span className="group-hover:translate-y-[-2px] inline-block transition-transform duration-300">Explore Cars</span>
             </Link>
@@ -37,9 +35,12 @@ const Header = () => {
             <Link href="/contact" className="nav-link group">
               <span className="group-hover:translate-y-[-2px] inline-block transition-transform duration-300">Contact</span>
             </Link>
+            <Link href="/booking">
             <button className="bg-blue-600 text-white px-4 lg:px-6 py-2 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-110 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
               Book Test Drive
             </button>
+            </Link>
+
             <ThemeSwitch />
           </div>
 

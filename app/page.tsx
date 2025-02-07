@@ -30,7 +30,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen bg-background text-foreground " >
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center">
         <div className="container mx-auto px-6">
@@ -39,7 +39,7 @@ export default function Home() {
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
-              className="max-w-2xl"
+              className="max-w-2xl mt-20"
             >
               <h1 className="text-5xl md:text-6xl font-bold mb-6 text-primary">
                 Find Your Dream Car Today

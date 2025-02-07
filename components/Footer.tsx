@@ -15,7 +15,7 @@ const Footer = () => {
             <Link href="/" className="flex items-center space-x-2">
               <motion.img 
                 whileHover={{ scale: 1.1 }}
-                src={theme === 'dark' ? "/logo2.png" : "/car-logo.png"}
+                src={"/logo2.png"}
                 alt="Car Showcase" 
                 className="h-8 w-auto"
               />
@@ -23,59 +23,59 @@ const Footer = () => {
                 CarShowcase
               </span>
             </Link>
-            <p className="text-gray-600 dark:text-gray-400">
+            <p className="">
               Discover your dream car with our extensive collection of premium vehicles.
             </p>
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-white">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4 ">Quick Links</h3>
             <ul className="space-y-2">
-              <li><Link href="/cars" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">Browse Cars</Link></li>
-              <li><Link href="/about" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">About Us</Link></li>
-              <li><Link href="/contact" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">Contact</Link></li>
-              <li><Link href="/blog" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">Blog</Link></li>
+              <li><Link href="/cars" className=" hover:text-blue-600  dark:hover:text-blue-400 transition-colors">Browse Cars</Link></li>
+              <li><Link href="/about" className=" hover:text-blue-600  dark:hover:text-blue-400 transition-colors">About Us</Link></li>
+              <li><Link href="/contact" className=" hover:text-blue-600  dark:hover:text-blue-400 transition-colors">Contact</Link></li>
+              <li><Link href="/blog" className="t hover:text-blue-600  dark:hover:text-blue-400 transition-colors">Blog</Link></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-white">Support</h3>
+            <h3 className="text-lg font-semibold mb-4 ">Support</h3>
             <ul className="space-y-2">
-              <li><Link href="/faq" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">FAQ</Link></li>
-              <li><Link href="/privacy" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">Privacy Policy</Link></li>
-              <li><Link href="/terms" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">Terms of Service</Link></li>
-              <li><Link href="/help" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">Help Center</Link></li>
+              <li><Link href="/faq" className="hover:text-blue-600  dark:hover:text-blue-400 transition-colors">FAQ</Link></li>
+              <li><Link href="/privacy" className="hover:text-blue-600  dark:hover:text-blue-400 transition-colors">Privacy Policy</Link></li>
+              <li><Link href="/terms" className=" hover:text-blue-600  dark:hover:text-blue-400 transition-colors">Terms of Service</Link></li>
+              <li><Link href="/help" className=" hover:text-blue-600  dark:hover:text-blue-400 transition-colors">Help Center</Link></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-white">Connect</h3>
+            <h3 className="text-lg font-semibold mb-4 ">Connect</h3>
             <div className="flex space-x-4">
               <motion.a
                 whileHover={{ scale: 1.1 }}
                 href="#"
-                className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors"
+                className=" hover:text-blue-600  dark:hover:text-blue-400 transition-colors"
               >
                 <FaFacebook size={24} />
               </motion.a>
               <motion.a
                 whileHover={{ scale: 1.1 }}
                 href="#"
-                className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors"
+                className=" hover:text-blue-600  dark:hover:text-blue-400 transition-colors"
               >
                 <FaTwitter size={24} />
               </motion.a>
               <motion.a
                 whileHover={{ scale: 1.1 }}
                 href="#"
-                className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors"
+                className=" hover:text-blue-600  dark:hover:text-blue-400 transition-colors"
               >
                 <FaInstagram size={24} />
               </motion.a>
               <motion.a
                 whileHover={{ scale: 1.1 }}
                 href="#"
-                className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors"
+                className=" hover:text-blue-600  dark:hover:text-blue-400 transition-colors"
               >
                 <FaLinkedin size={24} />
               </motion.a>
@@ -84,7 +84,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
-          <p className="text-center text-gray-600 dark:text-gray-400">
+          <p className="text-center  ">
             © {new Date().getFullYear()} CarShowcase. All rights reserved.
           </p>
         </div>
