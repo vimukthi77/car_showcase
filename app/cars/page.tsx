@@ -118,7 +118,7 @@ export default function ExplorePage() {
       mileage: "0",
       fuelType: "Petrol",
       transmission: "Automatic",
-      image: "/cars/bmw-m4.jpg",
+      image: "/cars/bmw-m41.jpg",
     },
     {
       id: 2,
@@ -162,7 +162,7 @@ export default function ExplorePage() {
       mileage: "0",
       fuelType: "Petrol",
       transmission: "Manual",
-      image: "/cars/porsche-911.jpg",
+      image: "/cars/porsche-9111.jpg",
     },
     {
       id: 6,
